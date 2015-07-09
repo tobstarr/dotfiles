@@ -43,6 +43,7 @@ set t_Co=256
 let g:syntastic_go_go_build_args = "-o /dev/null"
 
 set relativenumber
+set number " seems to work only in vim >= 7.4
 set nolinebreak
 set showmatch
 set showcmd
