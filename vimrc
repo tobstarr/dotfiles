@@ -118,7 +118,7 @@ scriptencoding utf-8
 set encoding=utf-8
 
 map ,. :w<CR>:make -f Makefile.wip<CR>
-map ,c :set relativenumber!<CR>
+map ,c :set relativenumber!<CR>:set number!<CR>
 map ,ff :CtrlPClearCache<CR>
 map ,nt :NERDTreeToggle<CR>
 map ,p :set paste!<CR>
